@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import CovidCharts from "../components/CovidCharts";
+import CovidStats from "../components/CovidStats";
 import Summary from "../components/Summary";
 import ENDPOINTS from "../utils/constants/endpoints";
 import { useEffect } from "react";
@@ -31,7 +31,7 @@ function Home() {
   return (
     <>
       <Hero />
-      {check && <CovidCharts covid={covid} title="Global" />}
+      {check && <CovidStats covid={covid} title="Global" />}
       <Summary summary={ENDPOINTS.SUMMARYGLOBAL} title="Global" />
     </>
   );

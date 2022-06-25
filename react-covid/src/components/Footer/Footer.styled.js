@@ -9,6 +9,10 @@ const StyledFooter = styled.div`
         margin-bottom: -0.5rem;
     }
 
+    .identity {
+        margin-bottom: 2rem;
+    }
+
     @media (max-width: 768px) {
         p {
             margin-bottom: 1.5rem;
@@ -21,6 +25,10 @@ const StyledFooter = styled.div`
             direction: row;
             align-items: center;
             justify-content: space-between;
+        }
+
+        .identity {
+            margin-bottom: 0%;
         }
     }
 `;

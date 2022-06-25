@@ -7,7 +7,7 @@ function Summary(props) {
         <StyledSummary>
             <h2>Summary</h2>
             <p>{`Data Covid Berdasarkan ${title}`}</p>
-            <img src={summary} alt="" />
+            <img src={summary} alt="Covid Chart" />
         </StyledSummary>
     );
 }

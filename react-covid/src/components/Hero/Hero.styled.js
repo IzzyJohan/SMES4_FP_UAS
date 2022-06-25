@@ -6,6 +6,7 @@ const StyledHero = styled.div`
 
     img {
         max-width: 100%;
+        margin-top: 2rem;
     }
 
     h2 {
@@ -51,6 +52,10 @@ const StyledHero = styled.div`
 
     .imagebox {
         flex-basis: 60%;
+    }
+
+    img {
+        margin-top: 0;
     }
 }
 `;
