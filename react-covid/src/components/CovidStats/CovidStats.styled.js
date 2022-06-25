@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledCovidCharts = styled.div`
+const StyledCovidStats = styled.div`
     background-color: rgb(240, 240, 240);
     padding: 1rem;
     padding-bottom: 4rem;
@@ -16,4 +16,4 @@ const StyledCovidCharts = styled.div`
     }
 `;
 
-export default StyledCovidCharts;
+export default StyledCovidStats;

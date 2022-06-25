@@ -1,4 +1,4 @@
-import CovidCharts from "../../components/CovidCharts";
+import CovidStats from "../../components/CovidStats";
 import Hero from "../../components/Hero";
 import axios from "axios";
 import { useEffect } from "react";
@@ -31,7 +31,7 @@ function Indonesia() {
     return(
         <>
             <Hero />
-            {check && <CovidCharts covid={covid} title="Indonesia" />}
+            {check && <CovidStats covid={covid} title="Indonesia" />}
             <Summary summary={ENDPOINTS.SUMMARYINDONESIA} title="Indonesia" /> 
         </>
     );

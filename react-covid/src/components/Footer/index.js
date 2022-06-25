@@ -5,7 +5,7 @@ function Footer() {
   return (
     <StyledFooter>
       <div className="footer">
-        <div> 
+        <div className="identity"> 
           <h2>COVID ID</h2>
           <p>Developed by Izzy</p>
         </div>
