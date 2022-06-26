@@ -1,7 +1,8 @@
+import { useSelector } from "react-redux";
 import StyledStat from "./Stat.styled";
 
-function Stat(props) {
-    const { covid } = props 
+function Stat() {
+    const covid = useSelector((store) => store.covid.covid);
 
     return(
         <>
